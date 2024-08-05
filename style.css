@@ -5,11 +5,11 @@
 /*CRIANDO VARIAVEIS PARA AS CORES*/
 :root {
     --cor-de-fundo: #eb9dde;
-    --verde: #2334c7;
-    --branco: #541074;
+    --verde: #21f19b;
+    --branco: #cd75f7;
     --botao-ativo: #7008ad;
-    --botao-inativo: rgba(58, 48, 168, 0.5);
-    --texto-fundo: rgba(10, 6, 243, 0.3);
+    --botao-inativo: rgba(105, 92, 245, 0.5);
+    --texto-fundo: rgba(228, 140, 137, 0.3);
 }
 
 
@@ -78,4 +78,28 @@ body {
     .botao:last-child {
         border-radius: 0 40px 0 0;
     }
+}
+:root {
+    --cor-fundo: #0681ec;
+    --cor-principal: #0B0D20;
+    --cor-secundaria: #1023af;
+    --cor-destaque: #2BDEFD;
+    --cor-texto: #4e0c7a;
+}
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.caixa-principal {
+    background-color: var(--cor-principal);
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    color: var(--cor-destaque);
 }
